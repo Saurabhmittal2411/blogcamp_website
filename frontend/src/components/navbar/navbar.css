@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar {
+    display: flex;
+    height: 60px;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding-left: 100px;
+}
+#logo img {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2em;
+}
+#navbar ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+#navbar ul li a:hover {
+    color: black;
+    opacity: 0.3;
+}
+.rightnav{
+    display: flex;
+    padding-right: 30px;
+    padding: 10px 20px;
+
+}
+.button1{
+    padding-right: 30px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid green;
+    width: 80px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    color:green;
+}
+.btn:hover{
+    background-color: green;
+    color:white;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.searchicon {
+    /* font-size: 18px; */
+    margin-right: 40px;
+    color: #666;
+    cursor: pointer;
+    padding-left: 40px;
+  }
+  .but{ 
+  /* background-color:transparent;  */
+  color:#28a745; 
+  border:1px solid #28a745;
+  border-radius: 10px;
+  padding: 2px;
+  margin-left: 10px;
+  margin-bottom:18px;
+  
+}
+ul .but {
+    color:#28a745;
+}
+.but:hover{
+background-color: #218838;
+  color: white;
+  /* border-color:#fff;  */
+  }

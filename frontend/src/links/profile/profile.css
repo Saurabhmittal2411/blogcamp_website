@@ -1,0 +1,110 @@
+  .settingsWrapper {
+    padding: 20px;
+  }
+  
+  .settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .settingsTitleUpdate {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+  }
+  
+  .settingsTitleDelete {
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .settingsTitleDelete:hover{
+  text-decoration:underline;
+  }
+  
+  .settingsForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settingsPP {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 48%;
+  }
+  .sizeprofile{
+    cursor :pointer;
+     margin-left: 30px;
+  }
+  .settingsPP > img {
+    /* display: flex; */
+    /* align-items: center;
+    justify-self:center; */
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    object-fit: cover;
+
+  }
+  
+  .settingsPPIcon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    background-color: lightcoral;
+    cursor: pointer;
+  }
+  
+  .settingsPPButton:focus {
+    outline-style: none;
+  }
+  
+  .settingsForm > label {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  
+  .settingsPPInput {
+    width: 30%;
+  }
+  
+  .settingsForm > input {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    margin-left: 24%;
+    width:1000px;
+    font-size: 20px;
+  }
+  
+  .settingsSubmitButton {
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .settingsSubmitButton:hover {
+    background-color: rgb(1, 114, 114);
+  }
